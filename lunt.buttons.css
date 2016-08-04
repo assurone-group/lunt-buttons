@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+:root {
+  --lunt-button-padding-y: var(--lunt-ms-xs);
+  --lunt-button-padding-x: var(--lunt-ms-s);
+
+  --lunt-button-font-size: var(--lunt-base-font-size);
+  --lunt-button-font-weight: var(--lunt-base-font-weight);
+  --lunt-button-line-height: var(--lunt-base-line-height);
+  --lunt-button-color: var(--lunt-color-white);
+
+  --lunt-button-border: initial;
+  --lunt-button-background: hsl(215,80%,50%);
+  --lunt-button-border-radius: 2px;
+}
+
+/**
+ * Button reset.
+ *
+ * 1. Buttons shouldn't have an hand cursor. (UX Opinionated)
+ * 2. Make render uniform
+ */
+
+.Btn {
+  appearance: none; /* 2 */
+  box-sizing: border-box;
+  cursor: default; /* 1 */
+  display: inline-block;
+  vertical-align: middle;
+
+  /* Reset */
+  padding-top: initial;
+  padding-bottom: initial;
+  padding-left: initial;
+  padding-right: initial;
+
+  color: initial;
+  font: inherit;
+
+  background: initial;
+  border-radius: initial;
+  border: initial;
+}
+
+/**
+ * Button component
+ */
+
+.Btn--primary {
+  padding-top: var(--lunt-button-padding-y);
+  padding-bottom: var(--lunt-button-padding-y);
+  padding-left: var(--lunt-button-padding-x);
+  padding-right: var(--lunt-button-padding-x);
+
+  color: var(--lunt-button-color);
+  font-size: var(--lunt-button-font-size);
+  font-weight: var(--lunt-button-font-weight);
+  line-height: var(--lunt-button-line-height);
+
+  background: var(--lunt-button-background);
+  border-radius: var(--lunt-button-border-radius);
+  border: var(--lunt-button-border);
+}
