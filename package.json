@@ -1,0 +1,25 @@
+{
+  "name": "lunt-buttons",
+  "version": "0.0.1",
+  "description": "Button components for the Lunt framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcazalis/lunt-buttons.git"
+  },
+  "keywords": [
+    "lunt",
+    "css",
+    "framework",
+    "buttons"
+  ],
+  "author": "David Cazalis <davidcazalis@gmail.com> (http://www.davidcazalis.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcazalis/lunt-buttons/issues"
+  },
+  "homepage": "https://github.com/davidcazalis/lunt-buttons#readme"
+}

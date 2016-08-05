@@ -3,6 +3,7 @@
    ========================================================================== */
 
 :root {
+
   --lunt-button-padding-y: var(--lunt-ms-xs);
   --lunt-button-padding-x: var(--lunt-ms-s);
 
@@ -14,13 +15,14 @@
   --lunt-button-border: initial;
   --lunt-button-background: hsl(215,80%,50%);
   --lunt-button-border-radius: 2px;
+
 }
 
 /**
  * Button reset.
  *
  * 1. Buttons shouldn't have an hand cursor. (UX Opinionated)
- * 2. Make render uniform
+ * 2. Make render uniform across modern browsers
  */
 
 .Btn {
