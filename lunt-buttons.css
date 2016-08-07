@@ -3,7 +3,6 @@
    ========================================================================== */
 
 :root {
-
   --lunt-button-padding-y: var(--lunt-ms-xs);
   --lunt-button-padding-x: var(--lunt-ms-s);
 
@@ -15,7 +14,6 @@
   --lunt-button-border: initial;
   --lunt-button-background: hsl(215,80%,50%);
   --lunt-button-border-radius: 2px;
-
 }
 
 /**
@@ -32,18 +30,21 @@
   display: inline-block;
   vertical-align: middle;
 
+  /* Sizing */
+  padding-top: var(--lunt-button-padding-y);
+  padding-bottom: var(--lunt-button-padding-y);
+  padding-left: var(--lunt-button-padding-x);
+  padding-right: var(--lunt-button-padding-x);
+
+  font-family: inherit;
+  font-size: var(--lunt-button-font-size);
+  font-weight: var(--lunt-button-font-weight);
+  line-height: var(--lunt-button-line-height);
+
   /* Reset */
-  padding-top: initial;
-  padding-bottom: initial;
-  padding-left: initial;
-  padding-right: initial;
-
-  color: initial;
-  font: inherit;
-
-  background: initial;
-  border-radius: initial;
-  border: initial;
+  background: inherit;
+  border-radius: inherit;
+  border: inherit;
 }
 
 /**
@@ -51,16 +52,7 @@
  */
 
 .Btn--primary {
-  padding-top: var(--lunt-button-padding-y);
-  padding-bottom: var(--lunt-button-padding-y);
-  padding-left: var(--lunt-button-padding-x);
-  padding-right: var(--lunt-button-padding-x);
-
   color: var(--lunt-button-color);
-  font-size: var(--lunt-button-font-size);
-  font-weight: var(--lunt-button-font-weight);
-  line-height: var(--lunt-button-line-height);
-
   background: var(--lunt-button-background);
   border-radius: var(--lunt-button-border-radius);
   border: var(--lunt-button-border);
