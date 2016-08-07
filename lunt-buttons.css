@@ -40,11 +40,6 @@
   font-size: var(--lunt-button-font-size);
   font-weight: var(--lunt-button-font-weight);
   line-height: var(--lunt-button-line-height);
-
-  /* Reset */
-  background: inherit;
-  border-radius: inherit;
-  border: inherit;
 }
 
 /**
