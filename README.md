@@ -1,4 +1,4 @@
-# lunt-box-sizing
+# lunt-buttons
 Button components for the Lunt framework.
 
 ```css
