@@ -1,6 +1,6 @@
 {
   "name": "lunt-buttons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Button components for the Lunt framework",
   "main": "index.js",
   "scripts": {
