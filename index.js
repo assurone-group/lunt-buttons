@@ -1,1 +1,1 @@
-require('./lunt-buttons.css');
+require('./index.css');
